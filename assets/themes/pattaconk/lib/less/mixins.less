@@ -12,6 +12,14 @@
     font-style: normal;
 
 }
+@font-face {
+  font-family: 'Arrows';
+  src: url('../fonts/arrows.eot');
+  src: url('../fonts/arrows.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/arrows.woff') format('woff'),
+       url('../fonts/arrows.ttf') format('truetype'),
+       url('../fonts/arrows.svg#Arrows') format('svg');
+}
 /* Font Stacks */
 .customserif(@size:1.6) {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
@@ -47,6 +55,11 @@
   line-height: 1;
 }
 
+.arrows{
+  font-family: 'Arrows',sans-serif;
+  font-weight: 400;
+}
+
 .fontawesome {
   font-family: "FontAwesome";
 }
@@ -64,12 +77,12 @@
 
 @ltred: lighten(@red,20%);
 @dkred: darken(@red, 20%);
-@ltorange: lighten(@dkblue, 10%);;
-@dkorange: darken(@dkblue, 10%);
+@ltorange: lighten(@orange, 10%);;
+@dkorange: darken(@orange, 10%);
 @ltyellow: lighten(@yellow,20%);
 @dkyellow: darken(@yellow, 20%);
 @ltgreen: #BDBBA2;
-@dkgreen: darken(@dkblue, 20%);
+@dkgreen: darken(@green, 20%);
 @ltblue: lighten(@blue,20%);
 @dkblue: rgb(31, 43, 88);
 @ltpurple: lighten(@purple,20%);

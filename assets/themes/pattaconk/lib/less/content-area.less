@@ -26,6 +26,13 @@ article.entry {
 }
 
 .entry-content{
+  img{
+    border: 16px solid @white;
+    -webkit-box-shadow: 0 0 6px 0 @medgrey;
+    box-shadow: 0 0 6px 0 @medgrey;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   a,a:link,a:visited{
     text-decoration: underline;
   }
@@ -120,7 +127,13 @@ article.entry {
 }
 
 .entry-content ul li {
-  list-style-type: disc;
+  list-style-type: none;
+  &:before{
+    .arrows;
+    content: 'a';
+    color: @blue;
+    padding: 0 1em 0 0;
+  }
 }
 
 .entry-content ol ol,
@@ -170,17 +183,16 @@ article.entry {
   .entry-title{
     .customheader(2.8);
     font-weight: 500;
-    color: @dkblue;
+    color: @blue;
     line-height: 1.25;
     margin: 0 0 2rem 0;
     text-align: left;
-    text-transform: uppercase;
     max-width: 75%;
   }
   .entry-subtitle{
     .customheader(2.1);
     font-weight: 300;
-    color: @dkblue;
+    color: @blue;
     line-height: 1.25;
     text-align: left;
   }
