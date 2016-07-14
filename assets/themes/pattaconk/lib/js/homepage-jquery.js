@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 
     if($( window ).width() > 480){
-        $(".hp-top").sticky({topSpacing:144});
+        //$(".hp-top").sticky({topSpacing:144});
     } else {
     }
 });

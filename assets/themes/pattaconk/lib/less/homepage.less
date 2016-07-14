@@ -30,6 +30,7 @@
   }
 }
 .site-inner{
+  display: none;
   background: @white !important;
   div{
   }
@@ -39,21 +40,58 @@
 }
 .sectioned-page-wrapper{
   .section{
-    text-align: center;
+    text-align: left;
     background-size: cover;
     .section-title{
       padding: 0;
       text-shadow: 0 0 0 rgba(255,255,255,0);
     }
-  }
-  .section.section-forms{
-    .background-image(linear-gradient(to right, @offwhite 0%,@offwhite 49.9%,@blue 50%,@blue 100%));
-    border-bottom: 6px solid @blue;
     .section-body{
-      .wrap{
-        padding: 0;
+      .wrap{}
+      img{
+        border: 16px solid @white;
+        -webkit-box-shadow: 0 0 6px 0 @medgrey;
+        box-shadow: 0 0 6px 0 @medgrey;
+        margin: 0;
+      }
+      a.bullet{
+        background-image: url(../img/bullet-arrow.png);
+        background-position: center left;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        font-size: 1.6em;
+        font-weight: 500;
+        color: @dkblue;
+        text-decoration: none;
       }
     }
+  }
+  .section{
+    &.section-image2,
+    &.section-charm,
+    &.section-image-5,
+    &.section-healthy-charming-relaxed{
+      margin-top: -5em;
+      padding-top: 0;
+    }
+  }
+  .section.section-welcome{
+    padding-top: 3em;
+    .section-body{
+      h1,h2{
+        .customheader(3.6);
+        color: @blue;
+        margin: 0;
+        line-height: 1.25;
+      }
+      h2{
+        .customheader(2.4);
+      }
+      .section-content.column-1{
+      }
+    }
+  }
+  .section.section-forms{
     .section-content{
       padding-left: 2rem;
       padding-right: 2rem;
@@ -76,7 +114,7 @@
         input[type="week"],
         select,
         textarea  {
-          border-width: 0;
+          border-width: 1px;
         }
       }
       h3,h3.gform_title{
@@ -90,7 +128,6 @@
         color: @dkblue;
      }
      &.column-2{
-       background-color: @blue;
        color: @medgrey;
        .calculator-box{
          margin: 30px auto;
@@ -143,46 +180,8 @@
      }
     }
   }
-  .section.section-lifestyle{
-    padding: 8rem 0;
-    .section-title{
-      h3{
-        color: @blue;
-      }
-    }
-    .section-body{
-      .wrap{
-        max-width: 700px;
-        .button{
-          border: 0;
-          background-color: @blue;
-          color: @white;
-          text-decoration: none;
-          &:hover{
-            background-color: darken(@blue,10%);
-          }
-        }
-      }
-    }
-  }
-  .section.section-programs{
-    background-position: center top;
-    padding: 8rem 0;
-    .section-title{
-      padding-left: 50%;
-      h3{
-        color: @dkblue;
-        text-align: left;
-      }
-    }
-    .section-body{
-       padding-left: 50%;
-      .wrap{
-        max-width: 550px;
-        margin: 0;
-        text-align: left;
-      }
-    }
+  .section.section-welcome-home{
+    padding: 8em 0;
   }
 }
 

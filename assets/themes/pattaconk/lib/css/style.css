@@ -8260,11 +8260,6 @@ Site Footer
 .sectioned-page-wrapper .section .section-body .wrap {
   padding: 2rem 0;
 }
-.sectioned-page-wrapper .section .section-body .wrap a,
-.sectioned-page-wrapper .section .section-body .wrap a:link,
-.sectioned-page-wrapper .section .section-body .wrap a:visited {
-  text-decoration: underline;
-}
 .sectioned-page-wrapper .section .section-body:after {
   content: ".";
   display: block;
