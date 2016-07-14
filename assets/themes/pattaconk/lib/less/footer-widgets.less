@@ -1,6 +1,9 @@
+
+//out: styles.css
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
+@import 'mixins';
 
 .footer-widgets {
   background-color: @blue;
@@ -10,11 +13,11 @@ Footer Widgets
   a {
     color: @white;
   }
-  
+
   a:hover {
     color: @offwhite;
   }
-  
+
   .widget {
     margin: 2rem auto;
     float: none;
@@ -50,7 +53,7 @@ Footer Widgets
       a.fa:hover{
         background-color: @offwhite;
       }
-          
+
        a.fa-facebook:hover{
          background-color:@facebook;
        }
@@ -104,12 +107,13 @@ Footer Widgets
   .widget.widget_nav_menu{
     .wrap();
     text-align: left;
+    padding-left:51px;
     ul.menu{
-      -moz-column-count: 5;
+      -moz-column-count: 4;
       -moz-column-gap: 30px;
-      -webkit-column-count: 5;
+      -webkit-column-count: 4;
       -webkit-column-gap: 30px;
-      column-count: 5;
+      column-count: 4;
       column-gap: 30px;
       >li{
         -webkit-column-break-inside: avoid;
