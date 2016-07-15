@@ -16,7 +16,7 @@ function msdlab_add_homepage_hero_flex_sidebars(){
 /**
  * Add a hero space with the site description
  */
- add_action('genesis_after_header','msdlab_hero');
+ add_action('genesis_before_header','msdlab_hero');
 function msdlab_hero(){
     if(is_active_sidebar('homepage-top') && is_front_page()){
         print '<div id="hp-top" class="hp-top">';
