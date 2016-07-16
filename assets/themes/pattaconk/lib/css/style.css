@@ -7682,11 +7682,6 @@ article.entry {
   list-style-image: url(http://chester.msdlab2.com/assets/uploads/2016/07/arrow.png);
 }
 .entry-content ul li:before {
-  font-family: 'Arrows', sans-serif;
-  font-weight: 400;
-  content: 'a';
-  color: #005395;
-  padding: 0 1em 0 0;
 }
 .entry-content ol ol,
 .entry-content ul ul {
