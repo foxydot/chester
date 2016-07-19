@@ -7659,10 +7659,6 @@ article.entry {
 .entry-content .gallery-columns-9 .gallery-caption {
   display: none;
 }
-.entry-content hr {
-  border-width: 0;
-  clear: both;
-}
 .entry-content ol,
 .entry-content p,
 .entry-content ul,
@@ -7680,8 +7676,6 @@ article.entry {
 }
 .entry-content ul li {
   list-style-image: url(http://chester.msdlab2.com/assets/uploads/2016/07/arrow.png);
-}
-.entry-content ul li:before {
 }
 .entry-content ol ol,
 .entry-content ul ul {
@@ -7730,6 +7724,7 @@ article.entry {
   margin: 0 0 2rem 0;
   text-align: left;
   max-width: 75%;
+  text-transform: uppercase;
 }
 .entry-header .entry-subtitle {
   font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
