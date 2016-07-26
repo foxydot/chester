@@ -9,6 +9,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'handtimesregular';
+  src: url('../fonts/handtimes-webfont.eot');
+  src: url('../fonts/handtimes-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handtimes-webfont.woff') format('woff'), url('../fonts/handtimes-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Arrows';
   src: url('../fonts/arrows.eot');
   src: url('../fonts/arrows.eot?#iefix') format('embedded-opentype'), url('../fonts/arrows.woff') format('woff'), url('../fonts/arrows.ttf') format('truetype'), url('../fonts/arrows.svg#Arrows') format('svg');
@@ -83,7 +90,7 @@
   z-index: -1;
 }
 .hp-top .widget_sp_image .image-widget-background {
-  padding: 4em 0;
+  padding: 3em 0 0;
 }
 .hp-top .widget_sp_image h2.hero-title {
   font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;

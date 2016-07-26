@@ -6276,6 +6276,13 @@ you can use the generic selector below, but it's slower:
   font-style: normal;
 }
 @font-face {
+  font-family: 'handtimesregular';
+  src: url('../fonts/handtimes-webfont.eot');
+  src: url('../fonts/handtimes-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handtimes-webfont.woff') format('woff'), url('../fonts/handtimes-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Arrows';
   src: url('../fonts/arrows.eot');
   src: url('../fonts/arrows.eot?#iefix') format('embedded-opentype'), url('../fonts/arrows.woff') format('woff'), url('../fonts/arrows.ttf') format('truetype'), url('../fonts/arrows.svg#Arrows') format('svg');
