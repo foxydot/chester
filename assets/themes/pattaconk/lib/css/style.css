@@ -7486,7 +7486,7 @@ Site Navigation
   font-size: 22px;
   font-size: 2.2rem;
   border-bottom: 0;
-  color: #005395;
+  color: #1f2b58;
 }
 .widget_advanced_menu .menu > li.current-menu-item ul.sub-menu,
 .widget_advanced_menu .menu > li.current-menu-ancestor ul.sub-menu {
@@ -7528,7 +7528,7 @@ Site Navigation
 }
 .widget_advanced_menu .menu > li.current-menu-item li a,
 .widget_advanced_menu .menu > li.current-menu-ancestor li a {
-  color: #888888;
+  color: #005395;
   padding: 1rem 0;
   display: inline-block;
   width: 80%;
