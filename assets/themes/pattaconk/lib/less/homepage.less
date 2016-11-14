@@ -109,6 +109,15 @@
     position:relative;
     top:0em;
     .section-body{
+       h1,h2{
+        .customheader(3.6);
+        color: @blue;
+        margin: 0;
+        line-height: 1.25;
+          }
+        h2{
+        .customheader(2.4);
+      }
       .section-content{
         &.column-1{
           position: relative;
@@ -132,13 +141,6 @@
             border: 0;
             -webkit-box-shadow: 0 0 0 0 @white;
             box-shadow: 0 0 0 0 @white;
-          }
-           
-          h1,h2{
-        .customheader(3.6);
-        color: @blue;
-        margin: 0;
-        line-height: 1.25;
           }
 
           h3{
