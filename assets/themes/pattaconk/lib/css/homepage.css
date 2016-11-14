@@ -171,7 +171,7 @@
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed {
   position: relative;
-  top: -2em;
+  top: 0em;
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-1 {
   position: relative;
@@ -228,7 +228,7 @@
 }
 .sectioned-page-wrapper .section.section-calculator {
   position: relative;
-  top: -5em;
+  top: -3em;
 }
 .sectioned-page-wrapper .section.section-forms .section-content {
   padding-left: 2rem;
