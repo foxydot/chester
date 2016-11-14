@@ -8150,6 +8150,9 @@ Site Footer
 }
 .site-footer .wrap div.icons i.icon-equal-housing {
   background-image: url(../img/Equal-Housing-new2-ie.png);
+  height: 25px;
+  position: relative;
+  top: 5px;
 }
 .site-footer .wrap div.icons i.logo {
   height: 40px;
