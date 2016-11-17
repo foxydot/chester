@@ -1,6 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 /* Import Fonts
 ------------------------------------------------------------ */
-@import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @font-face {
   font-family: 'jenna_sueregular';
   src: url('../fonts/jennasue-webfont.eot');
@@ -83,19 +83,19 @@
   font-size: 50px;
   font-size: 5rem;
   line-height: 1.625;
-  color: #FFF;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1;
 }
 .hp-top .widget_sp_image h3 {
   line-height: 1;
-  color: #FFF;
+  color: #ffffff;
 }
 .hp-top .widget_sp_image .button {
   border: 0;
   background-color: #005395;
-  color: #FFF;
+  color: #ffffff;
   text-decoration: none;
   margin: 0;
 }
@@ -104,7 +104,7 @@
 }
 .site-inner {
   display: none;
-  background: #FFF !important;
+  background: #ffffff !important;
 }
 .site-inner .button,
 .site-inner .button:hover {
@@ -123,7 +123,7 @@
   font-size: 1.6rem;
 }
 .sectioned-page-wrapper .section .section-body img {
-  border: 16px solid #FFF;
+  border: 16px solid #ffffff;
   -webkit-box-shadow: 0 0 6px 0 #888888;
   box-shadow: 0 0 6px 0 #888888;
   margin: 0;
@@ -211,8 +211,8 @@
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 img {
   border: 0;
-  -webkit-box-shadow: 0 0 0 0 #FFF;
-  box-shadow: 0 0 0 0 #FFF;
+  -webkit-box-shadow: 0 0 0 0 #ffffff;
+  box-shadow: 0 0 0 0 #ffffff;
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 h3 {
   font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
@@ -280,7 +280,7 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content h3,
 .sectioned-page-wrapper .section.section-forms .section-content h3.gform_title {
-  color: #FFF;
+  color: #ffffff;
   font-size: 1.3em;
   text-align: center;
   font-weight: 500;
@@ -347,7 +347,7 @@
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #888888;
   border-radius: 6px;
-  background-color: #FFF;
+  background-color: #ffffff;
   font-size: 14px;
   max-width: 280px;
   width: 100%;
@@ -460,7 +460,7 @@
   }
   .sectioned-page-wrapper .section.section-programs .section-title,
   .sectioned-page-wrapper .section.section-programs .section-body {
-    background-color: #FFF;
+    background-color: #ffffff;
     padding: 0 2vw;
   }
   .sectioned-page-wrapper .section.section-forms .section-content.column-1 .calculator-box {
@@ -478,3 +478,4 @@
     max-width: 85%;
   }
 }
+/*# sourceMappingURL=homepage.css.map */
